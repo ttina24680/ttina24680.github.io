@@ -1,40 +1,71 @@
-# KennethWYLee.github.io
-# 投資相關程式及資料的整理
+# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
 
-除了自己寫的程式之外，程式主要的來源如下(在 .ipynb 裡面有標明)：
+[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
-* [FinLab](https://www.finlab.tw/)
-* [twstock](https://github.com/mlouielu/twstock)
+## Preview
 
-因為我比較習慣使用 pandas 來做分析，所以會盡量把抓到的資料轉換成 dataframe。
+[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
 
-底下是一些可以抓資料的網站... 
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
 
-另外一些在 hackpad 上的已經遺失，需要重新尋找... :p
+## Status
 
-## 政府開放資料平台相關連結
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-resume/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
 
-* [上市公司基本資料](https://data.gov.tw/dataset/18419)
-* [上櫃股票基本資料](https://data.gov.tw/dataset/25036)
-* [興櫃公司基本資料](https://data.gov.tw/dataset/28568)
-* [證券商基本資料](https://data.gov.tw/dataset/20765)
+## Download and Installation
 
-## 台灣證券交易所
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
+* Install via npm: `npm i startbootstrap-resume`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
 
-* [證券商總公司明細表](http://www.twse.com.tw/zh/brokerService/brokerList)
-* [證券商分公司明細表](http://www.twse.com.tw/zh/brokerService/branchList)
-* [買賣日報表查詢系統](http://bsr.twse.com.tw/bshtm/)
-* [市場開市休市日期查詢](http://www.twse.com.tw/zh/holidaySchedule/holidaySchedule)
+## Usage
 
-## 證券櫃檯買賣中心
+### Basic Usage
 
-* [券商買賣證券日報表查詢系統](http://www.tpex.org.tw/web/stock/aftertrading/broker_trading/brokerBS.php)
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-## 集保資料庫
+### Advanced Usage
 
-* [集保股權分散表查詢](http://www.tdcc.com.tw/smWeb/QryStock.jsp)
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-## 其他參考資料
+#### Gulp Tasks
 
-* [台灣股市股票價格擷取](https://github.com/mlouielu/twstock)
-* [台灣股票即時爬蟲](https://github.com/Asoul/tsrtc)
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp sass` compiles SCSS files into CSS
+- `gulp minify-css` minifies the compiled CSS file
+- `gulp minify-js` minifies the themes JS file
+- `gulp copy` copies dependencies from node_modules to the vendor directory
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
+
+## Custom Builds
+
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
